@@ -1,0 +1,14 @@
+Stage-1:
+    #OBJECTIVES:
+    --> Implement a simple system which takes a long url and generates a respective short url 
+    --> Facility to get original url from that short url 
+
+
+    #Features:
+    --> GET long to short and short to long url
+    --> ADD the generated url in map 
+    --> Separate maps for long to short and short to long retrievals
+    --> Implement OOPs Features like hiding the members and can only interact through methods Get and Set 
+
+    #Extra:
+    --> Since we are not using any database try to store urls in a file and load them initially into the maps before running the new test cases to generate new URL not same as old.
