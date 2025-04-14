@@ -3,12 +3,28 @@ Stage-1:
     --> Implement a simple system which takes a long url and generates a respective short url 
     --> Facility to get original url from that short url 
 
-
+    #commit-2
     #Features:
-    --> GET long to short and short to long url
-    --> ADD the generated url in map 
-    --> Separate maps for long to short and short to long retrievals
-    --> Implement OOPs Features like hiding the members and can only interact through methods Get and Set 
+    Done--> GET long to short and short to long url
+    Done--> ADD the generated url in map 
+    Done--> Separate maps for long to short and short to long retrievals
+    Done--> Implement OOPs Features like hiding the members and can only interact through methods Get and Set 
 
+    #commit-3
     #Extra:
-    --> Since we are not using any database try to store urls in a file and load them initially into the maps before running the new test cases to generate new URL not same as old.
+    Done--> Since we are not using any database try to store urls in a file and load them initially into the maps before running the new test cases to generate new URL not same as old.
+
+    #Features: Created File based database 
+    1. whenever we add more data or run the program it first retrieve the old data in the system
+
+#Future Scopes
+--> Adding Real Database like MYSQL or MongoDB
+--> use api for lookups and not loading data in the maps directly use databases
+
+--> Add multiple encoding schemes and comparing there pros and cons
+--> Add alias (custom name if available instead of urls) using another map for storing custome-name --> shortUrl
+--> Understanding how to handle large userbase scale the system shard the database etc.
+
+
+#optional:(I would recommend to first make it a complete project and useful one instead of create more and more work on one and make it useful in real life )
+--> Working on the systems web based project using MERN or implementing the same system in other language 
